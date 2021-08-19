@@ -1,0 +1,11 @@
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 498px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner__container {
+        margin: 0 auto;
+    }
+}

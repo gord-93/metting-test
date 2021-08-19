@@ -1,0 +1,21 @@
+.banner__image {
+    width: 786px;
+    height: 518.35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url(../../../images/image-banner.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .banner__image {
+        background-image: url(../../../images/image-banner_small.svg);
+        position: relative;
+        width: 350.02px;
+        height: 300px;
+        margin: 41px auto 0;
+    }
+}

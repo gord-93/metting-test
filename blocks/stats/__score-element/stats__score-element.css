@@ -1,0 +1,19 @@
+.stats__score-element {
+    margin-right: 93px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.stats__score-element:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__score-element {
+        height: 60px;
+        margin-right: 75.82px;
+    }
+}

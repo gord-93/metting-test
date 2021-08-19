@@ -1,0 +1,11 @@
+.stats {
+    margin-top: 253px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats {
+        margin-top: 59px;
+    }
+}

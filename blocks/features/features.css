@@ -1,0 +1,12 @@
+.features {
+    margin: 130.12px 265px 200px 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .features {
+        margin: 50px 26px 131px 29px;
+    }
+}

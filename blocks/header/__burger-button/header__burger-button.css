@@ -1,0 +1,10 @@
+.header__burger-button {
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../images/burger-icon.svg);
+    width: 28px;
+    height: 12.2px;
+    display: none;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.stats__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 277.72px 0 215px;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 21px 0 24px;
+    }
+}

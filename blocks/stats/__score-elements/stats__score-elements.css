@@ -1,0 +1,10 @@
+.stats__score-elements {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__score-elements {
+        margin: 22px 75.84px 0 96px;
+    }
+}

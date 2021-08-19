@@ -1,0 +1,27 @@
+.banner__button {
+    width: 180px;
+    height: 66px;
+    margin: 34px 0 0 0;
+    border: none;
+    background-color: rgba(0, 236, 208, 1);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(24, 33, 109, 1);
+    cursor: pointer;
+}
+
+.banner__button:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 767px) {
+    .banner__button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 33px auto 0;
+    }
+}

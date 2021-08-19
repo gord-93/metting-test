@@ -1,0 +1,22 @@
+.page__circle {
+    position: absolute;
+    top: -147px;
+    left: -149px;
+    width: 766px;
+    height: 766px;
+    background-color: rgba(255, 82, 61, 1);
+    opacity: 0.05;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: -1;
+    filter: blur(150px);
+}
+
+@media screen and (max-width: 767px) {
+    .page__circle {
+        width: 394px;
+        height: 394px;
+        left: -111px;
+        top: -20px;
+    }
+}

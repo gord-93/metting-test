@@ -1,0 +1,5 @@
+@media screen and (max-width: 1199px) {
+    .header__burger-button_active {
+        display: block;
+    }
+}

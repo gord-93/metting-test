@@ -1,0 +1,7 @@
+.header__button_colored_blue {
+    padding: 16px 27px;
+    background-color: rgba(24, 33, 109, 1);
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+}

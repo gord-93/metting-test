@@ -1,0 +1,15 @@
+.stats__logo {
+
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__logo {
+        height: 16px;
+    }
+    .stats__logo:nth-child(6) {
+        display: none;
+    }
+    .stats__logo:nth-child(5) {
+        display: none;
+    }
+}

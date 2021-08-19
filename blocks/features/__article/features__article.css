@@ -1,0 +1,12 @@
+.features__article {
+    width: 320px;
+}
+
+@media screen and (max-width: 1199px) {
+    .features__article {
+        margin-bottom: 48px;
+    }
+    .features__article:last-child {
+        margin-bottom: 0;
+    }
+}

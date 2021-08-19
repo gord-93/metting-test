@@ -1,0 +1,14 @@
+.stats__score-number {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__score-number {
+        font-size: 23px;
+        line-height: normal;
+    }
+}

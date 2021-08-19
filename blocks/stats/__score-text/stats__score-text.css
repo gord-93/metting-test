@@ -1,0 +1,13 @@
+.stats__score-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 12px 0 0 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__score-text {
+        font-size: 6.49px;
+        margin: 10px 0 0 0;
+        line-height: normal;
+    }
+}

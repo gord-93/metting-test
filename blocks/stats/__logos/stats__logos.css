@@ -1,0 +1,13 @@
+.stats__logos {
+    display: flex;
+    flex-direction: row;
+    margin: 49px 245px 0;
+    justify-content: space-between;
+    height: 34.88px;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__logos {
+        margin: 22px 26.14px 0 22px;
+    }
+}

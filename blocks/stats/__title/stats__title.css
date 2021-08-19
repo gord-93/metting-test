@@ -1,0 +1,15 @@
+.stats__title {
+    width: 494px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__title {
+        font-size: 20px;
+        line-height: 30px;
+        width: 330px;
+    }
+}

@@ -1,0 +1,11 @@
+.stats__score-image {
+    width: 107.28px;
+    height: 14px;
+    margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .stats__score-image {
+        width: 55.16px;
+    }
+}

@@ -1,0 +1,16 @@
+.banner__text {
+    max-width: 484px;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 16px 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+    .banner__text {
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin: 20px auto 0;
+    }
+}
