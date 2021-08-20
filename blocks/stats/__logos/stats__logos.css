@@ -1,13 +1,14 @@
 .stats__logos {
     display: flex;
     flex-direction: row;
-    margin: 49px 245px 0;
-    justify-content: space-between;
+    margin: 49px auto 0;
     height: 34.88px;
+    max-width: 1110px;
 }
 
 @media screen and (max-width: 1199px) {
     .stats__logos {
-        margin: 22px 26.14px 0 22px;
+        margin: 22px auto 0;
+        max-width: 326.86px;
     }
 }

@@ -1,10 +1,21 @@
 .stats__logo {
+    margin-right: 79.73px;
+}
 
+.stats__logo:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1399px) {
+    .stats__logo {
+        margin-right: 49.73px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
     .stats__logo {
         height: 16px;
+        margin-right: 36.57px;
     }
     .stats__logo:nth-child(6) {
         display: none;

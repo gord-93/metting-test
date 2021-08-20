@@ -1,5 +1,6 @@
 .features__article {
     width: 320px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 1199px) {

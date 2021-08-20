@@ -5,7 +5,7 @@
     margin: 95.24px 0 0 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
     .banner__title {
         margin: 0 auto;
         font-size: 28px;

@@ -9,8 +9,13 @@
     margin: 30px 0 0 0;
 }
 
+.features__button:hover {
+    opacity: .6;
+}
+
 @media screen and (max-width: 1199px) {
     .features__button {
         margin: 20px 0 0 0;
+        line-height: 24px;
     }
 }

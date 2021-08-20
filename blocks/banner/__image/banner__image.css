@@ -10,12 +10,36 @@
     background-size: contain;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1599px) {
+    .banner__image {
+        width: 706px;
+        height: 438.35px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .banner__image {
+        width: 586px;
+        height: 318.35px;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 1349px) {
+    .banner__image {
+        width: 506px;
+        height: 238.35px;
+        top: 120px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
     .banner__image {
         background-image: url(../../../images/image-banner_small.svg);
         position: relative;
         width: 350.02px;
         height: 300px;
         margin: 41px auto 0;
+        top: 0;
     }
 }
